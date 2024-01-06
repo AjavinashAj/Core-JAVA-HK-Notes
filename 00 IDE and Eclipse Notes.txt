@@ -1,0 +1,133 @@
+1) What is an IDE?
+2) What are the popular IDEs?
+
+3) What is eclipse?
+4) Why eclipse?
+5) How to install and start eclipse?
+7) What is workspace, what is perspective, what project?
+8) Diff implicit configualtion folders and files created by eclipse and their purpose? 
+9) Diff types of projects we can crate in eclipse?
+
+10) Developing a Java program and classes in it?
+11) Compiling and Running a class using eclipse?
+==============================================================
+
+1) What is an IDE?
+	- IDE stands for Integrated Development Environment
+	- An editor software that provides an evironment to develop projects by integrating to different softwares is called IDE
+	- That means IDE provides connectivity to different sotwares from the same editor window.
+	- we no need to open each software in separate window those we are using in our project
+
+2) What are the advantages of IDEs?
+	1) it gives code help (less typing, more choosing)
+	2) automatic importing packages
+	3) auto generation of code (fields, constructors, methods, condition, loops, try, catch, finally, throws, etc...)
+	4) easy debugging
+	5) we can connect to diff sotware from this IDE editor
+	6) fast development
+
+3) Popular IDEs for Java application development?
+	1) Eclipse
+	2) STS
+	3) IntelliJ
+	4) NetBeans
+	
+4) Working with Eclipse?
+	1) What is eclipse?
+		- An eclipse is an IDE
+		- It is an editor software
+		- It is an open source software(freely avilable to download, we can also involve in its development eclipse features)
+		- It is meant for developing project more fast with less typing
+
+	2) Why Eclipse?
+		- for fast develop with ease and less efforts
+
+	3) How to install eclipse?
+		1) download eclipse from "eclipse.org/downloads"
+		2) click on "Download Packages" 
+		3) click "Eclipse IDE for Enterprise Java Developers"
+		4) click "Windows x86_64"
+		5) you will find "eclipse.zip" file is downloaded into your system
+		6) extract it to "C:\" drive by using winrar software
+	
+	4) How to start eclipse?
+		1) go to eclipse installed folder "C:\eclipse"
+		2) double click "eclipse.exe" file
+		3) select workspace 
+		4) click "Launch" button 
+		5) eclipse is started and welcome page is opened
+
+			Note: 
+			- A Workspace is a folder where you want to store projects.
+			- To identify a folder as workspace, eclipse creates a directory with the name ".metadata".
+			- In this folder eclipse stores all plugins and the setups we are doing for this workspace.
+				Note: do not delete this folder, it is not virus
+				- If you delete this folder, eclipse can not recognize your folder as workspace
+				- All setups and projects you created earlier are not loaded into eclipse
+
+	5) Creating project
+		- click "create project"
+		- click "Java project" -> Next
+		- Enter project name: 15 Encapulation
+		- click Next -> Finish -> Donot create
+		- click Open Java Project perspective
+		
+		Note: a new project is created with the name "15 Encapuslation"
+		- verify its structure in the workspace folder
+		- you will find
+			1) src folder			-> contains .java files those we are creating from eclipse
+			2) bin folder			-> contains .class files those are compiled from .java files
+
+			3) .settings folder		-> contains the setting we did for this project
+			4) .classpath file		-> contins the jars information those attached to this poject
+			5) .project file			-> contins information above this project to load when eclipse is started
+
+			Note: if we delete any of above folders or files your project will not work from eclipse
+
+	6) Changing font
+		1) for just increasing and decreasing font size 
+			- press ctrl ++  and ctrt + --
+		
+		2) for changing font name, font style and font size
+			- click window menu
+			- click Preferences menu item
+			- click General -> Appearances -> Colors and Fonts
+			- double click basic -> scroll down -> select Text font 
+			- click Edit button -> select the font name, font style, font size
+			- click "Apply and close" button
+
+	6) Developing a class in eclipse?
+		1) Create a Java project with the name "15 Encapsulation" as show in above step
+		2) Create a class
+			1) right click on src folder
+			2) click "class"
+			3) enter class name: Test 
+			4) click main method chck box
+			5) click finsh
+			7) add System.out.println("Hi"); in main method
+			
+	7) Compiling and running a class from eclipse
+		1) In eclipse every class is auto compiled and saved in bin folder
+		2) We no need to compile but we must execute
+		3) We have 4 options to run java class in eclipse
+			1) By using "Run button" available in images bar
+			2) Right click on editor any where -> click "Run As" -> click "Java Application"
+			3) In package explore view -> Right click on .java file -> click "Run As" -> click "Java Application"
+			4) Short cut -> press (Ctrl + F11)
+		
+
+	8) eclipse short cuts for fast development
+		1) for code drop down					--> ctrL + space
+		2) for filteing code in drop down			--> (type some text) and press (ctrl + space)
+		3) for adding main method				--> type main  then press (ctrl + space)	
+
+		4) for adding System.out.println()			--> sysout/sys/syso/sout + (ctrl + space)
+		5) for adding System.out.println("trace")	--> systrace/sys/syst/strace + (ctrl + space)
+		6) for adding System.err.println();			--> syserr/sys/syse/serr + (ctrl + space)
+
+
+
+
+		
+
+
